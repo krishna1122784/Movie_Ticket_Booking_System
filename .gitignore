@@ -1,38 +1,47 @@
+# Backend/Java
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+# IDEs
+.idea/
 *.iws
 *.iml
 *.ipr
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
 .vscode/
+.settings/
+.classpath
+.project
+.factorypath
+.apt_generated
 
-### Mac OS ###
+# Build and Dist
+build/
+dist/
+dist-ssr/
+nbbuild/
+nbdist/
+/.nb-gradle/
+
+# Node/Frontend
+node_modules/
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.local
+
+# OS
 .DS_Store
+
+# Other
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
